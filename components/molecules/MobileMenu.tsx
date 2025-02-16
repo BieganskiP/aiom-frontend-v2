@@ -1,8 +1,6 @@
-import { usePathname } from "next/navigation";
 import { LoginButton } from "../atoms/LoginButton";
 import { Logo } from "../atoms/Logo";
 import { ChevronRight } from "lucide-react";
-import clsx from "clsx";
 import { menuItems } from "@/constants/navigation";
 
 interface MobileMenuProps {
